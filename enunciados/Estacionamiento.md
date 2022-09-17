@@ -3,7 +3,7 @@
 
 **Relevamiento:**
 
-* [Requirimientos](#requerimientos)
+* [Requerimientos](#requerimientos)
 * [Diagrama de Casos de Uso](#diagrama-de-casos-de-uso)
 * [Diagrama de Clases](#diagrama-de-clases)
 * [Diagrama de Actividad](#diagrama-de-actividad)
@@ -57,7 +57,7 @@ Estos son los principales casos de uso del estacionamiento:
 Aquí está el diagrama de caso de uso de nuestro estacionamiento:
 
 <p align="center">
-    <img src="/diagramas/parking-use-case-diagram.svg" alt="Parking Lot Use Case Diagram">
+    <img src="/blob/main/diagramas/parking-use-case-diagram.svg" alt="Parking Lot Use Case Diagram">
     <br />
     Diagrama de casos de uso del Estacionamiento
 </p>
@@ -85,7 +85,7 @@ Estas son las principales clases de nuestro sistema de estacionamiento:
 **Cliente pagando ticket de parking:** Cualquier cliente puede realizar esta actividad. Aquí está el conjunto de pasos:
 
 <p align="center">
-    <img src="/media-files/parking-ticket.svg" alt="Parking Ticket Activity Diagram">
+    <img src="/blob/main/diagramas/parking-ticket.svg" alt="Parking Ticket Activity Diagram">
     <br />
     Diagrama de actividad del estacionamiento     
 </p>
