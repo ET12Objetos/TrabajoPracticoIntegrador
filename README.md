@@ -40,7 +40,7 @@ En archivo **README.md** se debe redactar la estrategia elegida al momento de re
 
 | Grupo | Integrantes |        TP       | Repositorio |
 |:-----:|:-----------:|:---------------:|:-----------:|
-|   1   |             | Estacionamiento |             |
+|   1   |             | [Estacionamiento](https://github.com/ET12Objetos/TrabajoPracticoIntegrador/blob/main/enunciados/Estacionamiento.md) |             |
 |   2   |             |                 |             |
 |   3   |             |                 |             |
 |   4   |             |                 |             |
