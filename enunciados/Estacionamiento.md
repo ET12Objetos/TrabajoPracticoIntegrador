@@ -1,5 +1,5 @@
 <h1 align="center">Estacionamiento</h1>
-<h3 align="center">ResoLet's make an object-oriented design for a multi-floor Parking Lot</h3>
+<h3 align="center">Realizar el diseño e implementación de una aplicación para un estacionamiento de varios pisos</h3>
 
 **Relevamiento:**
 
