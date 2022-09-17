@@ -1,101 +1,90 @@
 <h1 align="center">Estacionamiento</h1>
 <h3 align="center">ResoLet's make an object-oriented design for a multi-floor Parking Lot</h3>
 
-**We'll cover the following:**
+**Relevamiento:**
 
 * [Requirimientos](#requerimientos)
 * [Funcionalidades](#funcionalidades)
 * [Actividades](#actividades)
 
-A parking lot or car park is a dedicated cleared area that is intended for parking vehicles. In most countries where cars are a major mode of transportation, parking lots are a feature of every city and suburban area. Shopping malls, sports stadiums, megachurches, and similar venues often feature parking lots over large areas.
+Un estacionamiento es una area dedicada para estacionar vehiculos por periodos largos de tiempo. En muchos paises donde automoviles se utlizan a diario para transporte, los estacionamientos son una caracteristica de cada ciudad y area urbana. Centros comerciales, estadios, restaurantes, e industrias simiales a menudo ofrecen grades estacionamientos.
 
 <p align="center">
-    <img src="/media-files/parking-lot.png" alt="Parking Lot">
+    <img src="/diagramas/parking-lot.png" alt="Estacionamiento">
     <br />
-    Parking Lot
+    Estacionamiento
 </p>
 
 ### Requerimientos
 
-We will focus on the following set of requirements while designing the parking lot:
+Nuestro cliente nos pido que demos prioridad a los siguientes requerimientos de diseño para la aplicación del estacionamiento:
 
-1. The parking lot should have multiple floors where customers can park their cars.
-2. The parking lot should have multiple entry and exit points.
-3. Customers can collect a parking ticket from the entry points and can pay the parking fee at the exit points on their way out.
-4. Customers can pay the tickets at the automated exit panel or to the parking attendant.
-5. Customers can pay via both cash and credit cards.
-6. Customers should also be able to pay the parking fee at the customer’s info portal on each floor. If the customer has paid at the info portal, they don’t have to pay at the exit.
-7. The system should not allow more vehicles than the maximum capacity of the parking lot. If the parking is full, the system should be able to show a message at the entrance panel and on the parking display board on the ground floor.
-8. Each parking floor will have many parking spots. The system should support multiple types of parking spots such as Compact, Large, Handicapped, Motorcycle, etc.
-9. The Parking lot should have some parking spots specified for electric cars. These spots should have an electric panel through which customers can pay and charge their vehicles.
-10. The system should support parking for different types of vehicles like car, truck, van, motorcycle, etc.
-11. Each parking floor should have a display board showing any free parking spot for each spot type.
-12. The system should support a per-hour parking fee model. For example, customers have to pay $4 for the first hour, $3.5 for the second and third hours, and $2.5 for all the remaining hours.
+1. El estacionamiento debe tener multiples plantas donde los lcientes pueden estacionar sus vehiculos.
+2. El estacionamiento debe tener multplies puntos de entradas y salidas.
+3. Los clientes reciben un ticket de estacionamiento en los puntos de entrada y pueden pagar la tarifa de estacionamiento en los puntos de salida al salir.
+4. Los clientes pueden pagar los tickets en un disponisito de pago o en la ventanilla.
+5. Los clientes pueden pagar mediante el uso de efectivo y tarjetas de credito.
+6. Los clientes también deberan poder pagar la tarifa de estacionamiento en el portal de información del cliente en cada piso. Si el cliente ha pagado en el portal de información, no tiene que pagar a la salida.
+7. El sistema no debe permitir más vehículos que la capacidad máxima del estacionamiento. Si el parking está lleno, el sistema debería poder mostrar un mensaje en la placa de calle y en el panel de visualización del parking en la planta baja.
+8. Cada piso de estacionamiento tendrá muchos lugares de estacionamiento. El sistema debe admitir varios tipos de lugares de estacionamiento, como automoviles compactos, grande, para discapacitados, para motocicletas, etc.
+9. El estacionamiento debe tener algunos lugares de estacionamiento especificados para autos eléctricos. Estos puntos deberán contar con un tablero eléctrico a través del cual los clientes puedan pagar y cargar sus vehículos.
+10. El sistema debe admitir estacionamiento para diferentes tipos de vehículos como automóviles, camiones, camionetas, motocicletas, etc.
+11. Cada piso de estacionamiento debe tener un tablero que muestre cualquier lugar de estacionamiento libre para cada tipo de lugar.
+12. El sistema debe admitir un modelo de tarifa de estacionamiento por hora. Por ejemplo, los clientes tienen que pagar $400 por la primera hora, $350 por la segunda y tercera hora y $250 por todas las horas restantes.
 
-### Use Case Diagram
 
-Here are the main Actors in our system:
+### Diagrama de casos de uso
 
-* **Admin:** Mainly responsible for adding and modifying parking floors, parking spots, entrance, and exit panels, adding/removing parking attendants, etc.
-* **Customer:** All customers can get a parking ticket and pay for it.
-* **Parking Attendant:** Parking attendants can do all the activities on the customer’s behalf, and can take cash for ticket payment.
-* **System:** To display messages on different info panels, as well as assigning and removing a vehicle from a parking spot.
+Estos son los principales Actores en nuestro sistema:
 
-Here are the top use cases for Parking Lot:
+* **Administrador:** Principalmente responsable de agregar y modificar pisos de estacionamiento, lugares de estacionamiento, paneles de entrada y salida, agregar/eliminar asistentes de estacionamiento, etc.
+* **Cliente:** Todos los clientes pueden obtener una multa de estacionamiento y pagarla.
+* **Asistente de estacionamiento:** Los asistentes de estacionamiento pueden realizar todas las actividades en nombre del cliente y pueden tomar efectivo para el pago del ticket.
+* **Sistema:** Para mostrar mensajes en diferentes paneles de información, así como asignar y quitar un vehículo de un lugar de estacionamiento.
 
-* **Add/Remove/Edit parking floor:** To add, remove or modify a parking floor from the system. Each floor can have its own display board to show free parking spots.
-* **Add/Remove/Edit parking spot:** To add, remove or modify a parking spot on a parking floor.
-* **Add/Remove a parking attendant:** To add or remove a parking attendant from the system.
-* **Take ticket:** To provide customers with a new parking ticket when entering the parking lot.
-* **Scan ticket:** To scan a ticket to find out the total charge.
-* **Credit card payment:** To pay the ticket fee with credit card.
-* **Cash payment:** To pay the parking ticket through cash.
-* **Add/Modify parking rate:** To allow admin to add or modify the hourly parking rate.
+Estos son los principales casos de uso del estacionamiento:
 
-Here is the use case diagram of our Parking Lot:
+* **Agregar/Eliminar/Editar piso de estacionamiento:** Para agregar, eliminar o modificar un piso de estacionamiento del sistema. Cada piso puede tener su propio tablero de anuncios para mostrar los lugares de estacionamiento gratuitos.
+* **Agregar/Eliminar/Editar lugar de estacionamiento:** Para agregar, eliminar o modificar un lugar de estacionamiento en un piso de estacionamiento.
+* **Agregar/Eliminar un asistente de estacionamiento:** Para agregar o eliminar un asistente de estacionamiento del sistema.
+* **Emitir ticket:** Para proporcionar a los clientes un nuevo ticket de estacionamiento al ingresar al estacionamiento.
+* **Escanear ticket:** Para escanear un ticket y averiguar el cargo total.
+* **Pago con tarjeta de crédito:** Para pagar la tarifa del ticket con tarjeta de crédito.
+* **Pago en efectivo:** Para pagar el ticket de aparcamiento en efectivo.
+* **Agregar/Modificar tarifa de estacionamiento:** Para permitir que el administrador agregue o modifique la tarifa de estacionamiento por hora.
 
-<p align="center">
-    <img src="/media-files/parking-use-case-diagram.svg" alt="Parking Lot Use Case Diagram">
-    <br />
-    Use Case Diagram for Parking Lot
-</p>
-
-### Class Diagram
-
-Here are the main classes of our Parking Lot System:
-
-* **ParkingLot:** The central part of the organization for which this software has been designed. It has attributes like ‘Name’ to distinguish it from any other parking lots and ‘Address’ to define its location.
-* **ParkingFloor:** The parking lot will have many parking floors.
-* **ParkingSpot:** Each parking floor will have many parking spots. Our system will support different parking spots 1) Handicapped, 2) Compact, 3) Large, 4) Motorcycle, and 5) Electric.
-* **Account:** We will have two types of accounts in the system: one for an Admin, and the other for a parking attendant.
-* **Parking ticket:** This class will encapsulate a parking ticket. Customers will take a ticket when they enter the parking lot.
-* **Vehicle:** Vehicles will be parked in the parking spots. Our system will support different types of vehicles 1) Car, 2) Truck, 3) Electric, 4) Van and 5) Motorcycle.
-* **EntrancePanel and ExitPanel:** EntrancePanel will print tickets, and ExitPanel will facilitate payment of the ticket fee.
-* **Payment:** This class will be responsible for making payments. The system will support credit card and cash transactions.
-* **ParkingRate:** This class will keep track of the hourly parking rates. It will specify a dollar amount for each hour. For example, for a two hour parking ticket, this class will define the cost for the first and the second hour.
-* **ParkingDisplayBoard:** Each parking floor will have a display board to show available parking spots for each spot type. This class will be responsible for displaying the latest availability of free parking spots to the customers.
-* **ParkingAttendantPortal:** This class will encapsulate all the operations that an attendant can perform, like scanning tickets and processing payments.
-* **CustomerInfoPortal:** This class will encapsulate the info portal that customers use to pay for the parking ticket. Once paid, the info portal will update the ticket to keep track of the payment.
-* **ElectricPanel:** Customers will use the electric panels to pay and charge their electric vehicles.
+Aquí está el diagrama de caso de uso de nuestro estacionamiento:
 
 <p align="center">
-    <img src="/media-files/parking-class-diagram.png" alt="Parking Lot Class Diagram">
+    <img src="/diagramas/parking-use-case-diagram.svg" alt="Parking Lot Use Case Diagram">
     <br />
-    Class Diagram for Parking Lot
+    Diagrama de casos de uso del Estacionamiento
 </p>
 
-<p align="center">
-    <img src="/media-files/parking-uml.svg" alt="Parking Lot UML">
-    <br />
-    UML for Parking Lot
-</p>
+### Diagrama de clases
 
-### Activity Diagram
+Estas son las principales clases de nuestro sistema de estacionamiento:
 
-**Customer paying for parking ticket:** Any customer can perform this activity. Here are the set of steps:
+* **Estacionamiento:** La parte central de la organización para la que se ha diseñado este software. Tiene atributos como 'Nombre' para distinguirlo de cualquier otro estacionamiento y 'Dirección' para definir su ubicación.
+* **Piso de estacionamiento:** El estacionamiento tendrá muchos pisos de estacionamiento.
+* **LugarEstacionamiento:** Cada piso de estacionamiento tendrá muchos lugares de estacionamiento. Nuestro sistema admitirá diferentes lugares de estacionamiento 1) Discapacitados, 2) Compacto, 3) Grande, 4) Motocicleta y 5) Eléctrico.
+* **Cuenta:** Tendremos dos tipos de cuentas en el sistema: una para un administrador y otra para un asistente de estacionamiento.
+* **Multa de estacionamiento:** Esta clase encapsulará una multa de estacionamiento. Los clientes tomarán un ticket cuando ingresen al estacionamiento.
+* **Vehículo:** Los vehículos se estacionarán en los lugares de estacionamiento. Nuestro sistema admitirá diferentes tipos de vehículos 1) Automóvil, 2) Camión, 3) Eléctrico, 4) Camioneta y 5) Motocicleta.
+* **PanelEntrada y PanelSalida:** PanelEntrada imprimirá los tickets y PanelSalida facilitará el pago de la tarifa del ticket.
+* **Pago:** Esta clase será responsable de realizar los pagos. El sistema admitirá transacciones con tarjeta de crédito y en efectivo.
+* **Tarifa:** Esta clase hará un seguimiento de las tarifas de estacionamiento por hora. Se especificará un monto por cada hora. Por ejemplo, para una multa de estacionamiento de dos horas, esta clase definirá el costo de la primera y la segunda hora.
+* **Panel de estacionamiento:** Cada piso de estacionamiento tendrá un panel de visualización para mostrar los lugares de estacionamiento disponibles para cada tipo de lugar. Esta clase será responsable de mostrar la última disponibilidad de plazas de aparcamiento gratuitas a los clientes.
+* **Portal de asistente de estacionamiento:** esta clase encapsulará todas las operaciones que un asistente puede realizar, como escanear tickets y procesar pagos.
+* **Portal de informacion del cliente:** Esta clase encapsulará el portal de información que los clientes usan para pagar la multa de estacionamiento. Una vez pagado, el portal de información actualizará el ticket para realizar un seguimiento del pago.
+* **Panel electrico:** Los clientes utilizarán los paneles eléctricos para pagar y cargar sus vehículos eléctricos.
+
+### Actividad
+
+**Cliente pagando ticket de parking:** Cualquier cliente puede realizar esta actividad. Aquí está el conjunto de pasos:
 
 <p align="center">
     <img src="/media-files/parking-ticket.svg" alt="Parking Ticket Activity Diagram">
     <br />
-    Activity Diagram for Parking Lot Parking Ticket
+    Diagrama de actividad del estacionamiento     
 </p>
