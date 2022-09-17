@@ -12,8 +12,6 @@ Un estacionamiento es una area dedicada para estacionar vehiculos por periodos l
 
 <p align="center">
     <img src="https://github.com/ET12Objetos/TrabajoPracticoIntegrador/blob/main/diagramas/estacionamiento/parking-lot.png" alt="Estacionamiento">
-    <br />
-    Estacionamiento
 </p>
 
 ### Requerimientos
@@ -58,8 +56,6 @@ Aquí está el diagrama de caso de uso de nuestro estacionamiento:
 
 <p align="center">
     <img src="https://github.com/ET12Objetos/TrabajoPracticoIntegrador/blob/main/diagramas/estacionamiento/parking-use-case-diagram.svg" alt="Parking Lot Use Case Diagram">
-    <br />
-    Diagrama de casos de uso del Estacionamiento
 </p>
 
 ### Diagrama de Clases
@@ -86,6 +82,4 @@ Estas son las principales clases de nuestro sistema de estacionamiento:
 
 <p align="center">
     <img src="https://github.com/ET12Objetos/TrabajoPracticoIntegrador/blob/main/diagramas/estacionamiento/parking-ticket.svg" alt="Parking Ticket Activity Diagram">
-    <br />
-    Diagrama de actividad del estacionamiento     
 </p>
