@@ -4,8 +4,9 @@
 **Relevamiento:**
 
 * [Requirimientos](#requerimientos)
-* [Funcionalidades](#funcionalidades)
-* [Actividades](#actividades)
+* [Diagrama de Casos de Uso](#diagrama-de-casos-de-uso)
+* [Diagrama de Clases](#diagrama-de-clases)
+* [Diagrama de Actividad](#diagrama-de-actividad)
 
 Un estacionamiento es una area dedicada para estacionar vehiculos por periodos largos de tiempo. En muchos paises donde automoviles se utlizan a diario para transporte, los estacionamientos son una caracteristica de cada ciudad y area urbana. Centros comerciales, estadios, restaurantes, e industrias simiales a menudo ofrecen grades estacionamientos.
 
@@ -61,7 +62,7 @@ Aquí está el diagrama de caso de uso de nuestro estacionamiento:
     Diagrama de casos de uso del Estacionamiento
 </p>
 
-### Diagrama de clases
+### Diagrama de Clases
 
 Estas son las principales clases de nuestro sistema de estacionamiento:
 
@@ -79,7 +80,7 @@ Estas son las principales clases de nuestro sistema de estacionamiento:
 * **Portal de informacion del cliente:** Esta clase encapsulará el portal de información que los clientes usan para pagar la multa de estacionamiento. Una vez pagado, el portal de información actualizará el ticket para realizar un seguimiento del pago.
 * **Panel electrico:** Los clientes utilizarán los paneles eléctricos para pagar y cargar sus vehículos eléctricos.
 
-### Actividad
+### Diagrama de Actividad
 
 **Cliente pagando ticket de parking:** Cualquier cliente puede realizar esta actividad. Aquí está el conjunto de pasos:
 
