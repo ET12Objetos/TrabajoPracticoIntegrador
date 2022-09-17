@@ -11,7 +11,7 @@
 Un estacionamiento es una area dedicada para estacionar vehiculos por periodos largos de tiempo. En muchos paises donde automoviles se utlizan a diario para transporte, los estacionamientos son una caracteristica de cada ciudad y area urbana. Centros comerciales, estadios, restaurantes, e industrias simiales a menudo ofrecen grades estacionamientos.
 
 <p align="center">
-    <img src="/diagramas/parking-lot.png" alt="Estacionamiento">
+    <img src="https://github.com/ET12Objetos/TrabajoPracticoIntegrador/blob/main/diagramas/estacionamiento/parking-lot.png" alt="Estacionamiento">
     <br />
     Estacionamiento
 </p>
@@ -57,7 +57,7 @@ Estos son los principales casos de uso del estacionamiento:
 Aquí está el diagrama de caso de uso de nuestro estacionamiento:
 
 <p align="center">
-    <img src="/blob/main/diagramas/parking-use-case-diagram.svg" alt="Parking Lot Use Case Diagram">
+    <img src="https://github.com/ET12Objetos/TrabajoPracticoIntegrador/blob/main/diagramas/estacionamiento/parking-use-case-diagram.svg" alt="Parking Lot Use Case Diagram">
     <br />
     Diagrama de casos de uso del Estacionamiento
 </p>
@@ -85,7 +85,7 @@ Estas son las principales clases de nuestro sistema de estacionamiento:
 **Cliente pagando ticket de parking:** Cualquier cliente puede realizar esta actividad. Aquí está el conjunto de pasos:
 
 <p align="center">
-    <img src="/blob/main/diagramas/parking-ticket.svg" alt="Parking Ticket Activity Diagram">
+    <img src="https://github.com/ET12Objetos/TrabajoPracticoIntegrador/blob/main/diagramas/estacionamiento/parking-ticket.svg" alt="Parking Ticket Activity Diagram">
     <br />
     Diagrama de actividad del estacionamiento     
 </p>
