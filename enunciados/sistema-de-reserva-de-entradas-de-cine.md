@@ -1,5 +1,5 @@
-<h1 align="center">Design a Movie Ticket Booking System</h1>
-<h3 align="center">Realizar el diseño e implementación de una aplicación para un estacionamiento de varios pisos</h3>
+<h1 align="center">Sistema de reserva de entradas para el cine</h1>
+<h3 align="center">Realizar el diseño e implementación de una aplicación reservar entradas para el cine</h3>
 
 **Relevamiento:**
 
