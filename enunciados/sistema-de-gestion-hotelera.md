@@ -30,7 +30,7 @@ Nos centraremos en el siguiente conjunto de requisitos al diseñar el sistema de
 
 ### Diagrama de Casos de Uso
 
-Here are the main Actors in our system:
+Estos son los principales Actores en nuestro sistema:
 
 * **Huésped:** Todos los huéspedes pueden buscar las habitaciones disponibles, así como hacer una reserva.
 * **Recepcionista:** Principalmente responsable de agregar y modificar habitaciones, crear reservas de habitaciones, hacer el check-in y check-out de los clientes.
