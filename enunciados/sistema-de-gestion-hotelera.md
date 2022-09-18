@@ -1,4 +1,4 @@
-<h1 align="center">Sistema de Gestion Hotelera</h1>
+<h1 align="center">Sistema de Gestión Hotelera</h1>
 <h3 align="center">Realizar el diseño e implementación de una aplicación de gestión hotelera</h3>
 
 **Relevamiento:**
@@ -77,7 +77,7 @@ Estas son las principales clases de nuestro Sistema de Gestión Hotelera:
 <p align="center">
     <img src="https://github.com/ET12Objetos/TrabajoPracticoIntegrador/blob/main/diagramas/sistema-de-gestion-hotelera/hms-room-booking-activity-diagram.svg" alt="Hotel Management System Room Booking">
     <br />
-    Activity Diagram for Hotel Management System Room Booking
+    Diagrama de actividad para la reserva de habitaciones del sistema de gestión hotelera
 </p>
 
 **Check in:** El huésped se registrará para su reserva. El Recepcionista también puede realizar esta actividad. Aquí están los pasos:
@@ -85,7 +85,7 @@ Estas son las principales clases de nuestro Sistema de Gestión Hotelera:
 <p align="center">
     <img src="https://github.com/ET12Objetos/TrabajoPracticoIntegrador/blob/main/diagramas/sistema-de-gestion-hotelera/hms-check-in-activity-diagram.svg" alt="Hotel Management System Check in">
     <br />
-    Activity Diagram for Hotel Management System Check in
+    Diagrama de actividades para el registro del sistema de gestión hotelera
 </p>
 
 **Cancelar una reserva:** El huésped puede cancelar su reserva. Recepcionista puede realizar esta actividad. Estos son los diferentes pasos de esta actividad:
@@ -93,5 +93,5 @@ Estas son las principales clases de nuestro Sistema de Gestión Hotelera:
 <p align="center">
     <img src="https://github.com/ET12Objetos/TrabajoPracticoIntegrador/blob/main/diagramas/sistema-de-gestion-hotelera/hms-cancel-booking-activity-diagram.svg" alt="Hotel Management System Cancel Booking">
     <br />
-    Activity Diagram for Hotel Management System Cancel Booking
+    Diagrama de actividades para el sistema de gestión hotelera Cancelar reserva
 </p>
