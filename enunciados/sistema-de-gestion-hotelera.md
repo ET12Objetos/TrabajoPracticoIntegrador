@@ -11,7 +11,7 @@
 Un sistema de gestión hotelera es un software creado para manejar todas las actividades hoteleras en línea de manera fácil y segura. Este Sistema le dará a la administración del hotel poder y flexibilidad para administrar todo el sistema desde un único portal en línea. El sistema le permite al administrador realizar un seguimiento de todas las habitaciones disponibles en el sistema, así como reservar habitaciones y generar facturas.
 
 <p align="center">
-    <img src="/media-files/hotel-management-system.png" alt="Hotel Management System">
+    <img src="https://github.com/ET12Objetos/TrabajoPracticoIntegrador/blob/main/diagramas/sistema-de-gestion-hotelera/hotel-management-system.png" alt="Hotel Management System">
 </p>
 
 ### Requerimientos
@@ -53,7 +53,7 @@ Estos son los principales casos de uso del sistema de gestión hotelera:
 Aquí está el diagrama de casos de uso de nuestro Sistema de Gestión Hotelera:
 
 <p align="center">
-    <img src="/media-files/hms-use-case-diagram.svg" alt="Hotel Management System Use Case Diagram">
+    <img src="https://github.com/ET12Objetos/TrabajoPracticoIntegrador/blob/main/diagramas/sistema-de-gestion-hotelera/hms-use-case-diagram.svg" alt="Hotel Management System Use Case Diagram">
 </p>
 
 ### Diagrama de Clases
@@ -75,7 +75,7 @@ Estas son las principales clases de nuestro Sistema de Gestión Hotelera:
 **Hacer una reserva de habitación:** Cualquier huésped o recepcionista puede realizar esta actividad. Aquí está el conjunto de pasos para reservar una habitación:
 
 <p align="center">
-    <img src="/media-files/hms-room-booking-activity-diagram.svg" alt="Hotel Management System Room Booking">
+    <img src="https://github.com/ET12Objetos/TrabajoPracticoIntegrador/blob/main/diagramas/sistema-de-gestion-hotelera/hms-room-booking-activity-diagram.svg" alt="Hotel Management System Room Booking">
     <br />
     Activity Diagram for Hotel Management System Room Booking
 </p>
@@ -83,7 +83,7 @@ Estas son las principales clases de nuestro Sistema de Gestión Hotelera:
 **Check in:** El huésped se registrará para su reserva. El Recepcionista también puede realizar esta actividad. Aquí están los pasos:
 
 <p align="center">
-    <img src="/media-files/hms-check-in-activity-diagram.svg" alt="Hotel Management System Check in">
+    <img src="https://github.com/ET12Objetos/TrabajoPracticoIntegrador/blob/main/diagramas/sistema-de-gestion-hotelera/hms-check-in-activity-diagram.svg" alt="Hotel Management System Check in">
     <br />
     Activity Diagram for Hotel Management System Check in
 </p>
@@ -91,7 +91,7 @@ Estas son las principales clases de nuestro Sistema de Gestión Hotelera:
 **Cancelar una reserva:** El huésped puede cancelar su reserva. Recepcionista puede realizar esta actividad. Estos son los diferentes pasos de esta actividad:
 
 <p align="center">
-    <img src="/media-files/hms-cancel-booking-activity-diagram.svg" alt="Hotel Management System Cancel Booking">
+    <img src="https://github.com/ET12Objetos/TrabajoPracticoIntegrador/blob/main/diagramas/sistema-de-gestion-hotelera/hms-cancel-booking-activity-diagram.svg" alt="Hotel Management System Cancel Booking">
     <br />
     Activity Diagram for Hotel Management System Cancel Booking
 </p>
