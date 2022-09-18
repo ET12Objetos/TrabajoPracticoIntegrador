@@ -11,7 +11,7 @@
 Un sistema de reserva de entradas de cine en línea facilita la compra de entradas de cine a sus clientes. Los sistemas de venta de entradas electrónicas permiten a los clientes navegar a través de las películas que se están reproduciendo actualmente y reservar asientos, en cualquier lugar y en cualquier momento.
 
 <p align="center">
-    <img src="/media-files/movie-ticket-booking-system.png" alt="Movie Ticket Booking System">        
+    <img src="https://github.com/ET12Objetos/TrabajoPracticoIntegrador/blob/main/diagramas/sistema-de-reserva-de-entradas-de-cine/movie-ticket-booking-system.png" alt="Movie Ticket Booking System">        
 </p>
 
 ### Requerimientos
@@ -53,7 +53,7 @@ Estos son los principales casos de uso del sistema de reserva de entradas para e
 Aquí está el diagrama de caso de uso del sistema de reserva de entradas de cine:
 
 <p align="center">
-    <img src="/media-files/mtbs-use-case-diagram.svg" alt="Movie Ticket Booking System Use Case Diagram">
+    <img src="https://github.com/ET12Objetos/TrabajoPracticoIntegrador/blob/main/diagramas/sistema-de-reserva-de-entradas-de-cine/mtbs-use-case-diagram.svg" alt="Movie Ticket Booking System Use Case Diagram">
 </p>
 
 ### Diagrama de Clases
@@ -78,7 +78,7 @@ Estas son las principales clases del Sistema de reserva de entradas para el cine
 **Hacer una reserva:** Cualquier cliente puede realizar esta actividad. Estos son los pasos para reservar una entrada para un espectáculo:
 
 <p align="center">
-    <img src="/media-files/mtbs-make-booking-activity-diagram.svg" alt="Movie Ticket Booking System Make Booking Activity Diagram">
+    <img src="https://github.com/ET12Objetos/TrabajoPracticoIntegrador/blob/main/diagramas/sistema-de-reserva-de-entradas-de-cine/mtbs-make-booking-activity-diagram.svg" alt="Movie Ticket Booking System Make Booking Activity Diagram">
     <br />
     Diagrama de actividad para el sistema de reserva de entradas de cine Hacer reserva
 </p>
@@ -86,7 +86,7 @@ Estas son las principales clases del Sistema de reserva de entradas para el cine
 **Cancelar una reserva:** El cliente puede cancelar sus reservas. Estos son los pasos para cancelar una reserva:
 
 <p align="center">
-    <img src="/media-files/mtbs-cancel-booking-activity-diagram.svg" alt="Movie Ticket Booking System Cancel Booking Activity Diagram">
+    <img src="https://github.com/ET12Objetos/TrabajoPracticoIntegrador/blob/main/diagramas/sistema-de-reserva-de-entradas-de-cine/mtbs-cancel-booking-activity-diagram.svg" alt="Movie Ticket Booking System Cancel Booking Activity Diagram">
     <br />
     Diagrama de actividad para el sistema de reserva de entradas de cine Cancelar reserva
 </p>
