@@ -41,8 +41,8 @@ En archivo **README.md** se debe redactar la estrategia elegida al momento de re
 | Grupo | Integrantes |        TP       | Repositorio |
 |:-----:|:-----------:|:---------------:|:-----------:|
 |   1   |             | [Estacionamiento](https://github.com/ET12Objetos/TrabajoPracticoIntegrador/blob/main/enunciados/Estacionamiento.md) |             |
-|   2   |             |                 |             |
-|   3   |             |                 |             |
+|   2   |             | [Sistema de Reserva de Entradas de Cine](https://github.com/ET12Objetos/TrabajoPracticoIntegrador/blob/main/enunciados/sistema-de-reserva-de-entradas-de-cine.md)                |             |
+|   3   |             | [Sistema de Gestión Hotelera](https://github.com/ET12Objetos/TrabajoPracticoIntegrador/blob/main/enunciados/sistema-de-gestion-hotelera.md)                |             |
 |   4   |             |                 |             |
 |   5   |             |                 |             |
 
