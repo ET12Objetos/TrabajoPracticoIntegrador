@@ -1,5 +1,5 @@
-<h1 align="center">Sistema de reserva de entradas para el cine</h1>
-<h3 align="center">Realizar el diseño e implementación de una aplicación reservar entradas para el cine</h3>
+<h1 align="center">Sistema de reserva de entradas de cine</h1>
+<h3 align="center">Realizar el diseño e implementación de una aplicación reservar entradas de cine</h3>
 
 **Relevamiento:**
 
@@ -8,7 +8,7 @@
 * [Diagrama de Clases](#diagrama-de-clases)
 * [Diagrama de Actividad](#diagrama-de-actividad)
 
-Un sistema de reserva de entradas de cine en línea facilita la compra de entradas de cine a sus clientes. Los sistemas de venta de entradas electrónicas permiten a los clientes navegar a través de las películas que se están reproduciendo actualmente y reservar asientos, en cualquier lugar y en cualquier momento.
+Un sistema de reserva de entradas de cine en línea facilita la compra de entradas de cine a sus clientes. Los sistemas de venta de entradas electrónicas permiten a los clientes navegar a través de las películas que están cartelera actualmente y reservar asientos, en cualquier lugar y en cualquier momento.
 
 <p align="center">
     <img src="https://github.com/ET12Objetos/TrabajoPracticoIntegrador/blob/main/diagramas/sistema-de-reserva-de-entradas-de-cine/movie-ticket-booking-system.png" alt="Movie Ticket Booking System">        
