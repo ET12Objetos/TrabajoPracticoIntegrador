@@ -66,7 +66,7 @@ Estas son las principales clases del Sistema de reserva de entradas para el cine
 * **CinemaHall:** Cada cine tendrá varias salas con varios asientos.
 * **Ciudad:** Cada ciudad puede tener varios cines.
 * **Película:** La entidad principal del sistema. Las películas tienen atributos como título, descripción, idioma, género, fecha de lanzamiento, nombre de la ciudad, etc.
-* **Espectáculo:** Cada película puede tener muchos espectáculos; cada espectáculo se jugará en una sala de cine.
+* **Funcion/Proyeccion:** Cada película puede tener muchas funciones/proyecciones; cada funcion/proyeccion se realiza en una sala de cine.
 * **CinemaHallSeat:** Cada sala de cine tendrá muchos asientos.
 * **ShowSeat:** Cada ShowSeat corresponderá a un Show de cine y un CinemaHallSeat. Los clientes harán una reserva contra un ShowSeat.
 * **Reserva:** una reserva es para un programa de cine y tiene atributos como un número de reserva único, número de asientos y estado.
