@@ -21,7 +21,7 @@ Nuestro cliente nos pido que demos prioridad a los siguientes requerimientos de 
 1. El estacionamiento debe tener multiples plantas donde los lcientes pueden estacionar sus vehiculos.
 2. El estacionamiento debe tener multplies puntos de entradas y salidas.
 3. Los clientes reciben un ticket de estacionamiento en los puntos de entrada y pueden pagar la tarifa de estacionamiento en los puntos de salida al salir.
-4. Los clientes pueden pagar los tickets en un disponisito de pago o en la ventanilla.
+4. Los clientes pueden pagar los tickets en un dispositivo de pago o en la ventanilla.
 5. Los clientes pueden pagar mediante el uso de efectivo y tarjetas de credito.
 6. Los clientes también deberan poder pagar la tarifa de estacionamiento en el portal de información del cliente en cada piso. Si el cliente ha pagado en el portal de información, no tiene que pagar a la salida.
 7. El sistema no debe permitir más vehículos que la capacidad máxima del estacionamiento. Si el parking está lleno, el sistema debería poder mostrar un mensaje en la placa de calle y en el panel de visualización del parking en la planta baja.
