@@ -20,7 +20,7 @@ Nuestro servicio de reserva de entradas debe cumplir los siguientes requisitos:
 
 1. Debe poder enumerar las ciudades donde se encuentran los cines afiliados.
 2. Cada cine puede tener varias salas y cada sala puede presentar una película a la vez.
-3. Cada película tendrá múltiples espectáculos.
+3. Cada película tendrá múltiples funciones.
 4. Los clientes deberían poder buscar películas por título, idioma, género, fecha de estreno y nombre de la ciudad.
 5. Una vez que el cliente selecciona una película, el servicio debe mostrar los cines que proyectan esa película y sus programas disponibles.
 6. El cliente debe poder seleccionar un espectáculo en un cine en particular y reservar sus entradas.
