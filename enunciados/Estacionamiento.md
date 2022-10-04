@@ -66,7 +66,7 @@ Estas son las principales clases de nuestro sistema de estacionamiento:
 * **PisoEstacionamiento:** El estacionamiento tendrá muchos pisos de estacionamiento.
 * **LugarEstacionamiento:** Cada piso de estacionamiento tendrá muchos lugares de estacionamiento. Nuestro sistema admitirá diferentes lugares de estacionamiento 1) Discapacitados, 2) Compacto, 3) Grande, 4) Motocicleta y 5) Eléctrico.
 * **Cuenta:** Tendremos dos tipos de cuentas en el sistema: una para un administrador y otra para un asistente de estacionamiento.
-* **MultaEstacionamiento:** Esta clase encapsulará una multa de estacionamiento. Los clientes tomarán un ticket cuando ingresen al estacionamiento.
+* **TicketEstacionamiento:** Esta clase encapsulará un ticket de estacionamiento. Los clientes tomarán un ticket cuando ingresen al estacionamiento.
 * **Vehículo:** Los vehículos se estacionarán en los lugares de estacionamiento. Nuestro sistema admitirá diferentes tipos de vehículos 1) Automóvil, 2) Camión, 3) Eléctrico, 4) Camioneta y 5) Motocicleta.
 * **PanelEntrada y PanelSalida:** PanelEntrada imprimirá los tickets y PanelSalida facilitará el pago de la tarifa del ticket.
 * **Pago:** Esta clase será responsable de realizar los pagos. El sistema admitirá transacciones con tarjeta de crédito y en efectivo.
