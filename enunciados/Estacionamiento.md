@@ -43,7 +43,7 @@ Estos son los principales Actores en nuestro sistema:
 
 Estos son los principales casos de uso del estacionamiento:
 
-* **Agregar/Eliminar/Editar piso de estacionamiento:** Para agregar, eliminar o modificar un piso de estacionamiento del sistema. Cada piso puede tener su propio tablero de anuncios para mostrar los lugares de estacionamiento gratuitos.
+* **Agregar/Eliminar/Editar piso de estacionamiento:** Para agregar, eliminar o modificar un piso de estacionamiento del sistema. Cada piso puede tener su propio tablero de anuncios para mostrar los lugares de estacionamiento disponibles.
 * **Agregar/Eliminar/Editar lugar de estacionamiento:** Para agregar, eliminar o modificar un lugar de estacionamiento en un piso de estacionamiento.
 * **Agregar/Eliminar un asistente de estacionamiento:** Para agregar o eliminar un asistente de estacionamiento del sistema.
 * **Emitir ticket:** Para proporcionar a los clientes un nuevo ticket de estacionamiento al ingresar al estacionamiento.
@@ -71,7 +71,7 @@ Estas son las principales clases de nuestro sistema de estacionamiento:
 * **PanelEntrada y PanelSalida:** PanelEntrada imprimirá los tickets y PanelSalida facilitará el pago de la tarifa del ticket.
 * **Pago:** Esta clase será responsable de realizar los pagos. El sistema admitirá transacciones con tarjeta de crédito y en efectivo.
 * **Tarifa:** Esta clase hará un seguimiento de las tarifas de estacionamiento por hora. Se especificará un monto por cada hora. Por ejemplo, para una multa de estacionamiento de dos horas, esta clase definirá el costo de la primera y la segunda hora.
-* **PanelEstacionamiento:** Cada piso de estacionamiento tendrá un panel de visualización para mostrar los lugares de estacionamiento disponibles para cada tipo de lugar. Esta clase será responsable de mostrar la última disponibilidad de plazas de aparcamiento gratuitas a los clientes.
+* **PanelEstacionamiento:** Cada piso de estacionamiento tendrá un panel de visualización para mostrar los lugares de estacionamiento disponibles para cada tipo de lugar. Esta clase será responsable de mostrar la última disponibilidad de plazas de aparcamiento disponibles a los clientes.
 * **PortalAsistenteEstacionamiento:** esta clase encapsulará todas las operaciones que un asistente puede realizar, como escanear tickets y procesar pagos.
 * **PortalInformacionCliente:** Esta clase encapsulará el portal de información que los clientes usan para pagar la multa de estacionamiento. Una vez pagado, el portal de información actualizará el ticket para realizar un seguimiento del pago.
 * **PanelElectrico:** Los clientes utilizarán los paneles eléctricos para pagar y cargar sus vehículos eléctricos.
