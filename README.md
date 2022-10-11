@@ -40,9 +40,9 @@ En archivo **README.md** se debe redactar la estrategia elegida al momento de re
 
 | Grupo | Integrantes |        TP       | Repositorio |
 |:-----:|:-----------:|:---------------:|:-----------:|
-|   1   |    Jose,Mauro,Mijal, Ismael        | [Estacionamiento](https://github.com/ET12Objetos/TrabajoPracticoIntegrador/blob/main/enunciados/Estacionamiento.md) |             |
-|   2   |    Javier,Nayeli,Esthefany,Yampa         | [Sistema de Reserva de Entradas de Cine](https://github.com/ET12Objetos/TrabajoPracticoIntegrador/blob/main/enunciados/sistema-de-reserva-de-entradas-de-cine.md)                |             |
-|   3   |     Lucia,Abril,Sara,Brenda        | [Sistema de Gestión Hotelera](https://github.com/ET12Objetos/TrabajoPracticoIntegrador/blob/main/enunciados/sistema-de-gestion-hotelera.md)                |             |
+|   1   |    Jose,Mauro,Mijal, Ismael        | [Estacionamiento](https://github.com/ET12Objetos/TrabajoPracticoIntegrador/blob/main/enunciados/Estacionamiento.md) | [Estacionamiento](https://github.com/09MauroID/Estacionamiento)            |
+|   2   |    Javier,Nayeli,Esthefany,Yampa         | [Sistema de Reserva de Entradas de Cine](https://github.com/ET12Objetos/TrabajoPracticoIntegrador/blob/main/enunciados/sistema-de-reserva-de-entradas-de-cine.md)                |  [Cine](https://github.com/quirogapabon11/Cine)           |
+|   3   |     Lucia,Abril,Sara,Brenda        | [Sistema de Gestión Hotelera](https://github.com/ET12Objetos/TrabajoPracticoIntegrador/blob/main/enunciados/sistema-de-gestion-hotelera.md)                | [Hotel](https://github.com/abrilchauq/Gestion-Hotelera)            |
 
 
 ## Calificaciones
