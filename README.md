@@ -32,9 +32,9 @@ En archivo **README.md** se debe redactar la estrategia elegida al momento de re
 | Entrega | Fecha |         Entregable        |
 |:-------:|:-----:|:-------------------------:|
 |    1    |  7/10 |     Diagrama de Clases    |
-|    2    | 18/10 |   Proyecto de Biblioteca  |
-|    3    | 27/10 | Proyecto de Test Unitario |
-|    4    |  8/11 |      Proyecto Web API     |
+|    2    | 20/10 |   Proyecto de Biblioteca  |
+|    3    |  3/11 | Proyecto de Test Unitario |
+|    4    | 17/11 |      Proyecto Web API     |
 
 ## Grupos
 
