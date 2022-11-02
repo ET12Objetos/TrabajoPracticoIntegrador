@@ -16,10 +16,9 @@ Un enlace a un repositorio de github el cual debe ser público me tienen que agr
 │   └── diagrama-de-clases.mmd
 ├── src/
 │   ├── Proyecto/
-│   │   ├── Dominio
-│   │   ├── Infrastructura
-│   │   ├── Presentacion
-│   │   └── Tests
+│   │   ├── Dominio (Bibliteca de clases)
+│   │   ├── Presentacion (WebAPI)
+│   │   └── Tests (Unit Test)
 │   └── Proyecto.sln
 ├── .gitignore
 └── .README.md
@@ -44,13 +43,3 @@ En archivo **README.md** se debe redactar la estrategia elegida al momento de re
 |   2   |    Javier,Nayeli,Esthefany,Yampa         | [Sistema de Reserva de Entradas de Cine](https://github.com/ET12Objetos/TrabajoPracticoIntegrador/blob/main/enunciados/sistema-de-reserva-de-entradas-de-cine.md)                |  [Cine](https://github.com/quirogapabon11/Cine)           |
 |   3   |     Lucia,Abril,Sara,Brenda        | [Sistema de Gestión Hotelera](https://github.com/ET12Objetos/TrabajoPracticoIntegrador/blob/main/enunciados/sistema-de-gestion-hotelera.md)                | [Hotel](https://github.com/abrilchauq/Gestion-Hotelera)            |
 
-
-## Calificaciones
-
-| Grupo | Entrega 1 | Entrega 2 | Entrega 3 | Entrega Final |
-|:-----:|:---------:|:---------:|:---------:|---------------|
-|   1   |           |           |           |               |
-|   2   |           |           |           |               |
-|   3   |           |           |           |               |
-|   4   |           |           |           |               |
-|   5   |           |           |           |               |
