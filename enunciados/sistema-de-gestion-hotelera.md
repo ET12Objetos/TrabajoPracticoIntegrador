@@ -22,11 +22,10 @@ Nos centraremos en el siguiente conjunto de requerimientos al diseñar el sistem
 2. Los huéspedes deben poder buscar en el inventario de habitaciones y reservar cualquier habitación disponible.
 3. El sistema debe poder recuperar información, como quién reservó una habitación en particular o qué habitaciones reservó un huesped específico.
 4. El sistema debería permitir a los huespedes cancelar su reserva y proporcionarles un reembolso completo si la cancelación se produce antes de las 24 horas de la fecha de llegada.
-5. El sistema debería poder enviar notificaciones cada vez que la reserva se acerque a la fecha de entrada o salida.
-6. El sistema debe mantener un registro de limpieza de la habitación para realizar un seguimiento de todas las tareas de limpieza.
-7. Cualquier huesped debe poder agregar servicios de habitación y alimentos.
-8. Los huespedes pueden solicitar diferentes servicios.
-9. Los huespedes deben poder pagar sus cuentas a través de tarjeta de crédito, cheque o efectivo.
+5. El sistema debe mantener un registro de limpieza de la habitación para realizar un seguimiento de todas las tareas de limpieza.
+6. Cualquier huesped debe poder agregar servicios de habitación y alimentos.
+7. Los huespedes pueden solicitar diferentes servicios.
+
 
 ### Diagrama de Casos de Uso
 
@@ -34,7 +33,6 @@ Estos son los principales **actores** en nuestro sistema:
 
 * **Huésped:** Todos los huéspedes pueden buscar las habitaciones disponibles, así como hacer una reserva.
 * **Recepcionista:** Principalmente responsable de agregar y modificar habitaciones, crear reservas de habitaciones, hacer el check-in y check-out de los huespedes.
-* **Sistema:** Principalmente responsable de enviar notificaciones de reservas de habitaciones, cancelaciones, etc.
 * **Gerente:** Principalmente responsable de agregar nuevos trabajadores (personal del hotel, e.g. ama de llaves, recepcionista etc.).
 * **Ama de llaves:** Para agregar/modificar el registro de limpieza de habitaciones.
 * **Mozo:** Para agregar/modificar el registro de servicio a la habitaciones.
@@ -64,7 +62,6 @@ Estas son las principales clases de nuestro Sistema de Gestión Hotelera:
 * **Habitación:** El componente básico del sistema. Cada habitación será identificada de forma única por el número de habitación. Cada habitación tendrá atributos como tipo de habitación, precio de reserva, etc.
 * **Usuario:** Tendremos diferentes tipos de usuarios en el sistema: una será de **huesped** para buscar y reservar habitaciones, otra será de **recepcionista**. El servicio de limpieza realizará un seguimiento de los registros de limpieza de una habitación y un servidor se encargará del servicio de habitaciones.
 * **RoomBooking:** Esta clase será responsable de gestionar las reservas de una habitación.
-* **Notificación:** Se encargará de enviar notificaciones a los huespedes.
 * **RoomHouseKeeping:** Para realizar un seguimiento de todos los registros de limpieza de las habitaciones.
 * **RoomCharge:** Resume los detalles sobre los diferentes tipos de servicios de habitación que los huéspedes han solicitado.
 * **Factura:** Contiene diferentes **items de gastos** realizados por el huesped y se cargaron contra la habitación.
