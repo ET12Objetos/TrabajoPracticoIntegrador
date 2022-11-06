@@ -51,7 +51,7 @@ Estos son los principales **casos de uso** del sistema de gestión hotelera:
 Aquí está el diagrama de casos de uso de nuestro Sistema de Gestión Hotelera:
 
 <p align="center">
-    <img src="https://github.com/ET12Objetos/TrabajoPracticoIntegrador/blob/main/diagramas/sistema-de-gestion-hotelera/usecase.drawio.png" alt="Hotel Management System Use Case Diagram">
+    <img src="https://github.com/ET12Objetos/TrabajoPracticoIntegrador/blob/main/diagramas/sistema-de-gestion-hotelera/usecase.drawio.svg" alt="Hotel Management System Use Case Diagram">
 </p>
 
 ### Diagrama de Clases
