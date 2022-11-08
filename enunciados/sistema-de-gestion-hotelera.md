@@ -58,14 +58,18 @@ Aquí está el diagrama de casos de uso de nuestro Sistema de Gestión Hotelera:
 
 Estas son las principales clases de nuestro Sistema de Gestión Hotelera:
 
-* **Hotel y HotelLocation:** Nuestro sistema admitirá múltiples ubicaciones de hoteles.
+* **Hotel y Sede:** Nuestro sistema admitirá múltiples ubicaciones de hoteles.
 * **Habitación:** Cada habitación será identificada de forma única por el número de habitación. Cada habitación tendrá atributos como tipo de habitación, precio de reserva, etc.
 * **Usuario:** Tendremos diferentes tipos de usuarios en el sistema: una será de **huesped** para buscar y reservar habitaciones, otra será de **recepcionista**. El servicio de limpieza realizará un seguimiento de los registros de limpieza de una habitación y un servidor se encargará del servicio de habitaciones.
-* **RoomBooking:** Esta clase será responsable de gestionar las reservas de una habitación.
-* **RoomHouseKeeping:** Para realizar un seguimiento de todos los registros de limpieza de las habitaciones.
+* **Reserva:** Esta clase será responsable de gestionar las reservas de una habitación.
+* **ServicioLimpieza:** Para realizar un seguimiento de todos los registros de limpieza de las habitaciones.
 * **RoomCharge:** Resume los detalles sobre los diferentes tipos de servicios de habitación que los huéspedes han solicitado.
 * **Factura:** Contiene diferentes **items de gastos** realizados por el huesped y se cargaron contra la habitación.
-* **RoomKey:** A cada habitación se le puede asignar una tarjeta llave electrónica. Las llaves tendrán un código de barras y se identificarán de forma única mediante un ID de llave.
+* **Llave:** A cada habitación se le puede asignar una tarjeta llave electrónica. Las llaves tendrán un código de barras y se identificarán de forma única mediante un ID de llave.
+
+<p align="center">
+    <img src="https://github.com/ET12Objetos/TrabajoPracticoIntegrador/blob/main/diagramas/sistema-de-gestion-hotelera/class.drawio.svg" alt="Hotel Management System Class Diagram">
+</p>
 
 ### Diagrama de Actividad
 
