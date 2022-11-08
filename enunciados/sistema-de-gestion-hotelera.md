@@ -35,7 +35,7 @@ Estos son los principales **actores** en nuestro sistema:
 * **Recepcionista:** Principalmente responsable de agregar y modificar habitaciones, crear reservas de habitaciones, hacer el check-in y check-out de los huespedes.
 * **Gerente:** Principalmente responsable de agregar nuevos trabajadores (personal del hotel, e.g. mucama, recepcionista etc.).
 * **Mucama:** Para agregar/modificar el registro de limpieza de habitaciones.
-* **Mozo:** Para agregar/modificar el registro de servicio a la habitaciones.
+* **Camarero:** Para agregar/modificar el registro de servicio a la habitaciones.
 
 Estos son los principales **casos de uso** del sistema de gestión hotelera:
 
